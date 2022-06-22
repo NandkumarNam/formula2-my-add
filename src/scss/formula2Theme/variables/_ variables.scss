@@ -1,0 +1,38 @@
+// ================= Fonts ================= //
+$global-font: 'formula1 regular';
+$font-bold: 'formula1 bold';
+$font-wide: 'formula1 wide';
+//  End  //
+
+
+// ================= Colors ================= //
+$color-black: #000;
+$color-white: #fff;
+$color-error: #CE8888;
+
+$red: #ff0000;
+$dark-grey: #38383F;
+//  End  //
+
+
+// ================= Media Query ================= //
+$tiny-screen: 568px !default;
+$small-screen: 768px !default;
+$medium-screen: 920px !default;
+$large-screen: 1280px !default;
+$xlarge-screen: 1440px !default;
+
+$abovesmall-screen: 768px;
+$belowsmall-screen: 767px !default;
+//  End  //
+
+
+// ================= Spacing ================= //
+$base-spacing-unit: 15px;
+$half-spacing-unit: $base-spacing-unit / 2;
+//  End  //
+
+
+/* ================= container ================= */
+$container-width: 1200px;
+//  End  //

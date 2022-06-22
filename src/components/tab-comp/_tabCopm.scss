@@ -1,0 +1,345 @@
+.f2-raceStanding-wrapper{
+  position: relative;
+
+  .f2-raceStanding-content{
+    text-align: center;
+
+    &::before{
+      position: absolute;
+      content: "";
+      left: 0;
+      top: 0;
+    }
+
+    background: url("../../../public/assets/img/racestanding-bg.jpg") no-repeat center bottom #f3f3f3;
+    background-size: cover;
+    width: 100%;
+    height: 435px;
+
+    .f2-raceStanding-inlineTabs{
+      &.f2-bg--offWhite {
+        background-color: #f7f4f1;
+        padding: 0;
+        margin: 0;
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+
+      li{
+        
+        &.selected{
+          .tabBtn{
+            &::after{
+              background: #e10600;
+              position: absolute;
+              content: '';
+              width: 100%;
+              height: 3px;
+              left: 0;
+              bottom: 0;
+            }
+          }
+        }
+
+        &:hover{
+          .tabBtn{
+            &::after{
+              background: #e10600;
+              position: absolute;
+              content: '';
+              width: 100%;
+              height: 3px;
+              left: 0;
+              bottom: 0;
+            }
+          }
+        }
+      }
+      
+
+      .f2-tab{
+        position: relative;
+        display: inline-block;
+
+        &:before {
+          content: '';
+          border-left: 1px solid #d0d0d2;
+          height: 20px;
+          position: absolute;
+          left: -2px;
+          top: 50%;
+          margin-top: -10px;
+        }
+
+        &:first-child{
+          &:before {
+            border-left: 0;
+          }
+        }
+
+        .tabBtn{
+          margin: 0 60px;
+          padding: 20px 0;
+          display: block;
+          position: relative;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .col-custom-10{
+      margin-top: 60px;
+
+      .f2-raceStanding--tabTitle{
+        font-size: 25px;
+        line-height: 30px;
+        font-family: "formula1 wide";
+        text-transform: uppercase;
+        color: #fff;
+      }
+    }    
+
+    .f2-podium--top-positions{
+      margin-top: 185px;
+
+      &.constructors{
+        margin-top: 105px;
+      }
+
+      .f2-podium--position{
+        margin-bottom: 0px;
+        margin-right: 10px;
+        margin-top: 30px;
+        vertical-align: top;
+        width: calc(31.7% - 10px);
+        display: inline-block;
+        position: relative;
+        text-decoration: none;
+
+        &.pos--1{
+          margin-top: 0;
+          height: 100px;
+          width: 35.4%;
+
+          .f2-driver-snapbox{
+            height: 170px;
+          }
+        }
+
+        .f2-driver-snapbox{
+          border-radius: 15px 15px 0 0;
+          height: 140px;
+          position: relative;
+          background-color: #fff;
+
+          .team-color-border{
+            height: 10px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            position: absolute;
+            
+          }
+          .f2-driver-snap{
+            img {
+              bottom: 0;
+              position: absolute;
+              right: 0;
+            }
+          }
+        }
+
+        .f2-contructors-snapbox{
+          border-radius: 15px 15px 0 0;
+          padding-top: 15px;
+          background-color: #ffffff;
+
+          .constructor-logo{
+            display: block;
+
+            img{
+              bottom: -30px;
+              max-width: 100%;
+              display: inline-block;
+              width: 85%;
+            }
+          }
+        }
+
+        .f2-driver-info{
+          border-radius: 0 0 15px 15px;
+          padding: 25px;
+          background-color: #38383f;
+          text-align: left;
+
+          .f2-podium--driver{
+            .f2-podium--name{
+              font-family: "formula1 regular";
+              font-size: 14px;
+              line-height: 17px;
+              color: #fff;
+              
+            }
+            .f2-podium--flag{
+              display: inline-block;
+              width: 22px;
+              img{
+                border-radius: 2px;
+                margin-left: 5px;
+              }
+            }
+            .f2-podium--surname{
+              font-family: "formula1 bold";
+              font-size: 25px;
+              line-height: 30px;
+              display: block;
+              color: #fff;
+              text-transform: uppercase;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+
+    .f2-podium--raceStanding-list{
+      display: block;
+      margin: 0 10px 0 10px;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: #f3f3f3;
+      list-style-type: none;
+
+      .f2-podium--item {
+        align-items: center;
+        backface-visibility: hidden;
+        border-radius: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-bottom: 2px;
+        overflow: hidden;
+        padding: 5px 10px;
+
+        &.f2-podium--item-none{
+          display: none;
+        }
+
+        a {
+          color: inherit;
+          text-decoration: none;
+
+          &:hover{
+            color: #fff;
+
+            &.f2-podium--link{
+              transition: 0.4s cubic-bezier(0.35, 0.15, 0.6, 1);
+              background-color: #000;
+              .f2-podium--time{
+                &.f2-label {
+                  color: #000000;
+                }
+              }
+            }
+          }
+
+          &.f2-podium--link {
+            padding: 15px 10px 15px 20px;
+            transition: 0.4s cubic-bezier(0.35, 0.15, 0.6, 1);
+            width: 100%;
+            align-items: center;
+            backface-visibility: hidden;
+            border-radius: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            overflow: hidden;
+            padding: 15px;
+            background-color: #fff;
+  
+            .f2-podium--rank {
+              position: relative;
+              top: 1px;
+              text-align: right;
+              width: 20px;
+            }
+  
+            .team-color-icon{
+              width: 4px;
+              height: 14px;
+              margin: 0 10px;
+            }
+  
+            .f2-podium--driver{
+              .f2-podium--surname {
+                font-family: "formula1 bold";
+                font-size: 14px;
+                line-height: 17px;
+                text-transform: uppercase;
+                text-align: left;
+              }
+            }
+  
+            .f2-podium-subdetail{
+              margin-left: 10px;
+            }
+  
+            .f2-podium-right{
+              margin-left: auto;
+  
+              .f2-podium--time{
+                margin-left: 10px;
+                display: inline;
+                min-width: 95px;
+                text-align: center;
+                font-weight: 600;
+  
+                &.f2-label {
+                  border-radius: 15px;
+                  line-height: 1;
+                  display: table;
+                  padding: 8px 0px;
+                  width: auto;
+                  background-color: #ededed;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .btn{
+        margin: 10px 0 20px 0;
+        background:#e10600;
+        box-shadow: none;
+        color:#ffffff;
+        border-radius: 5px;
+        border: none;
+        box-sizing: border-box;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all 0.5s cubic-bezier(0.2, 0, 0.05, 1);
+        font-family: "Titillium Web";
+        font-size: 13px;
+        line-height: 15px;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        position: relative;
+        padding: 12px 35px 12px 15px;
+
+        &:hover{
+          transition: all 0.5s cubic-bezier(0.2, 0, 0.05, 1);
+          color:#e10600;
+          background:#fff;
+          border: 1px solid #e10600;
+        }
+      }
+    }
+  }
+
+  img, svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}

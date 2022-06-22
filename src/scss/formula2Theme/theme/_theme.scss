@@ -1,0 +1,39 @@
+/** ------- @ Themes color ------- **/
+$primary: $red !default;
+$secondary: $dark-grey !default;
+
+/** ------- @ Medai Queries ------- **/
+$screen: "only screen" !default;
+$tiny: "only screen and (min-width: #{$tiny-screen})" !default;
+$small: "only screen and (min-width: #{$small-screen})" !default;
+$medium: "only screen and (min-width:#{$medium-screen})" !default;
+$large: "only screen and (min-width:#{$large-screen})" !default;
+$xlarge: "only screen and (min-width:#{$xlarge-screen})" !default;
+$landscape: "only screen and (orientation: landscape)" !default;
+$portrait: "only screen and (orientation: portrait)" !default;
+
+
+$abovesmall: "only screen and (min-width: #{$abovesmall-screen})";
+$belowsmall: "only screen and (max-width: #{$belowsmall-screen})";
+
+/** ------- @ Common Settings ------- **/
+.container {
+  box-sizing: border-box;
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: 0 25px;
+
+  @media only screen and (min-width: 768px) {
+    padding: 0 20px;
+  }
+
+  @media only screen and (min-width: 1280px) {
+    padding: 0 15px;
+  }
+}
+
+.container-fluid {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}

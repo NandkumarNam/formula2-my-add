@@ -1,0 +1,9 @@
+@import './mixins/all';
+@import './functions/all';
+
+@import '~normalize.css/normalize.css';
+@import './typography';
+
+//formula2 theme
+
+@import './formula2Theme/main.scss';

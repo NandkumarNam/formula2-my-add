@@ -1,0 +1,1 @@
+{"version":3,"file":"main.b0d17c15558e2d7573bb.hot-update.js","sources":["webpack:///./src/components/tabComp/PanelComp.js"],"sourcesContent":["import React from 'react';\n\nconst PanelComp = () => <div>{this.props.children}</div>;\n\nexport default PanelComp;\n"],"mappings":";;;;;;;;;;;;;;;;;AAAA;AACA;AACA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AACA;AACA;;;;A","sourceRoot":""}

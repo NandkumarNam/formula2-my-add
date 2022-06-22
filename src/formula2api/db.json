@@ -1,0 +1,256 @@
+{
+    "drivers": [
+        {
+            "firstName": "George",
+            "lastName": "Russell",
+            "team": "Williams Mercedes",
+            "country": "GBR",
+            "teamColor": "FFFFFF",
+            "points": 0,
+            "id": 1
+        },
+        {
+            "firstName": "Robert",
+            "lastName": "Kubica",
+            "team": "Williams Mercedes",
+            "country": "POL",
+            "teamColor": "FFFFFF",
+            "points": 1,
+            "id": 2
+        },
+        {
+            "firstName": "Charles",
+            "lastName": "Leclerc",
+            "team": "Ferrari",
+            "country": "MON",
+            "teamColor": "DC0000",
+            "points": 264,
+            "id": 3
+        },
+        {
+            "firstName": "Sebastian",
+            "lastName": "Vettel",
+            "team": "Ferrari",
+            "country": "GER",
+            "teamColor": "DC0000",
+            "points": 240,
+            "id": 4
+        },
+        {
+            "firstName": "Carlos",
+            "lastName": "Sainz",
+            "team": "McLaren Renault",
+            "country": "ESP",
+            "teamColor": "FF8700",
+            "points": 96,
+            "id": 5
+        },
+        {
+            "firstName": "Lando",
+            "lastName": "Norris",
+            "team": "McLaren Renault",
+            "country": "GBR",
+            "teamColor": "FF8700",
+            "points": 49,
+            "id": 6
+        },
+        {
+            "firstName": "Lewis",
+            "lastName": "Hamilton",
+            "team": "Mercedes",
+            "country": "GBR",
+            "teamColor": "00D2BE",
+            "points": 413,
+            "id": 7
+        },
+        {
+            "firstName": "Valtteri",
+            "lastName": "Bottas",
+            "team": "Mercedes",
+            "country": "GBR",
+            "teamColor": "00D2BE",
+            "points": 326,
+            "id": 8
+        },
+        {
+            "firstName": "Kimi",
+            "lastName": "Räikkönen",
+            "team": "Alfa Romeo Racing Ferrari",
+            "country": "FIN",
+            "teamColor": "9B0000",
+            "points": 43,
+            "id": 9
+        },
+        {
+            "firstName": "Antonio",
+            "lastName": "Giovinazzi",
+            "team": "Alfa Romeo Racing Ferrari",
+            "country": "ITA",
+            "teamColor": "9B0000",
+            "points": 14,
+            "id": 10
+        },
+        {
+            "firstName": "Daniel",
+            "lastName": "Ricciardo",
+            "team": "Renault",
+            "country": "AUS",
+            "teamColor": "FFF500",
+            "points": 54,
+            "id": 11
+        },
+        {
+            "firstName": "Nico",
+            "lastName": "Hulkenberg",
+            "team": "Renault",
+            "country": "GBR",
+            "teamColor": "FFF500",
+            "points": 37,
+            "id": 12
+        },
+        {
+            "firstName": "Max",
+            "lastName": "Verstappen",
+            "team": "Red Bull Racing Honda",
+            "country": "NED",
+            "teamColor": "1E41FF",
+            "points": 278,
+            "id": 13
+        },
+        {
+            "firstName": "Alexander",
+            "lastName": "Albon",
+            "team": "Red Bull Racing Honda",
+            "country": "THA",
+            "teamColor": "1E41FF",
+            "points": 92,
+            "id": 14
+        },
+        {
+            "firstName": "Pierre",
+            "lastName": "Gasly",
+            "team": "Scuderia Toro Rosso Honda",
+            "country": "FRA",
+            "teamColor": "469BFF",
+            "points": 95,
+            "id": 15
+        },
+        {
+            "firstName": "Daniil",
+            "lastName": "Kvyat",
+            "team": "Scuderia Toro Rosso Honda",
+            "country": "RUS",
+            "teamColor": "469BFF",
+            "points": 37,
+            "id": 16
+        },
+        {
+            "firstName": "Sergio",
+            "lastName": "Perez",
+            "team": "Racing Point BWT Mercedes",
+            "country": "MEX",
+            "teamColor": "F596C8",
+            "points": 52,
+            "id": 17
+        },
+        {
+            "firstName": "Lance",
+            "lastName": "Stroll",
+            "team": "Racing Point BWT Mercedes",
+            "country": "CAN",
+            "teamColor": "F596C8",
+            "points": 21,
+            "id": 18
+        },
+        {
+            "firstName": "Kevin",
+            "lastName": "Magnussen",
+            "team": "Haas Ferrari",
+            "country": "DEN",
+            "teamColor": "bd9e57",
+            "points": 20,
+            "id": 19
+        },
+        {
+            "firstName": "Romain",
+            "lastName": "Grosjean",
+            "team": "Haas Ferrari",
+            "country": "RUS",
+            "teamColor": "bd9e57",
+            "points": 8,
+            "id": 20
+        }
+    ],
+    "contructors": [
+        {
+            "drivers": "Kubica / Russell",
+            "team": "Williams",
+            "teamColor": "FFFFFF",
+            "points": 1,
+            "id": 1
+        },
+        {
+            "drivers": "Grosjean / Magnussen",
+            "team": "Haas",
+            "teamColor": "bd9e57",
+            "points": 28,
+            "id": 2
+        },
+        {
+            "drivers": "Räikkönen / Giovinazzi",
+            "team": "Alfa Romeo",
+            "teamColor": "9B0000",
+            "points": 57,
+            "id": 3
+        },
+        {
+            "drivers": "Perez / Stroll",
+            "team": "Racing Point",
+            "teamColor": "F596C8",
+            "points": 73,
+            "id": 4
+        },
+        {
+            "drivers": "Sainz / Norris",
+            "team": "McLaren",
+            "teamColor": "FF8700",
+            "points": 145,
+            "id": 5
+        },
+        {
+            "drivers": "Kvyat / Gasly",
+            "team": "Toro Rosso",
+            "teamColor": "469BFF",
+            "points": 85,
+            "id": 6
+        },
+        {
+            "drivers": "Hamilton / Bottas",
+            "team": "Mercedes",
+            "teamColor": "00D2BE",
+            "points": 739,
+            "id": 7
+        },
+        {
+            "drivers": "Vettel / Leclerc",
+            "team": "Ferrari",
+            "teamColor": "DC0000",
+            "points": 504,
+            "id": 8
+        },
+        {
+            "drivers": "Verstappen / Albon",
+            "team": "Red Bull Racing",
+            "teamColor": "1E41FF",
+            "points": 417,
+            "id": 9
+        },
+        {
+            "drivers": "Hulkenberg / Ricciardo",
+            "team": "Renault",
+            "teamColor": "FFF500",
+            "points": 91,
+            "id": 10
+        }
+      ]
+}

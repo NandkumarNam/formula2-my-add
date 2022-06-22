@@ -1,0 +1,47 @@
+html,
+body {
+  font-family: $global-font;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h3,
+h4,
+h5,
+h6,
+p,
+form {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  outline: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+hr{
+  border-color: #D1D1D1;
+  margin: 12px 0 20px 0;
+  width: 99%;
+}
